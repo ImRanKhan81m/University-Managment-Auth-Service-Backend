@@ -5,13 +5,14 @@ const app: Application = express()
 
 
 
-const corsFonfig = {
+const corsConfig = {
     origin: true,
     credentials: true,
 }
+app.use(cors(corsConfig));
+app.options('*', cors(corsConfig));
 app.use(express.json())
-app.use(cors(corsFonfig));
-app.options('*', cors(corsFonfig));
+app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
     res.send('Hello World!')
