@@ -3,7 +3,7 @@ import cors from 'cors'
 
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
 import { UserRoutes } from './app/modules/users/user.route'
-import ApiError from './errors/ApiError'
+// import ApiError from './errors/ApiError'
 
 const app: Application = express()
 
@@ -21,11 +21,11 @@ app.use('/api/v1/users', UserRoutes)
 
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
   // res.send('Hello World! University Management System API is running.')
-  // next()
+  next()
 
-  // next(new ApiError(404, 'Not Found'))
-  // throw new ApiError(400, 'server error!')
-  next(new ApiError(400, 'server error!'))
+  // Promise.reject(new Error('Unhandled server error!'))
+
+  // next(new ApiError(400, 'server error!'))
 })
 
 // global error handler
