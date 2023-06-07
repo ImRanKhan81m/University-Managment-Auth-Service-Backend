@@ -1,8 +1,9 @@
-import express, { Application } from 'express'
+import express, { Application, NextFunction, Request, Response } from 'express'
 import cors from 'cors'
 
-import usersRouter from './app/modules/users/users.route'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
+import { UserRoutes } from './app/modules/users/user.route'
+import ApiError from './errors/ApiError'
 
 const app: Application = express()
 
@@ -16,15 +17,16 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Application routes
-app.use('/api/v1/users', usersRouter)
+app.use('/api/v1/users', UserRoutes)
 
-// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-//   // res.send('Hello World! University Management System API is running.')
-//   // next()
+app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  // res.send('Hello World! University Management System API is running.')
+  // next()
 
-//   // next(new ApiError(404, 'Not Found'))
-
-// })
+  // next(new ApiError(404, 'Not Found'))
+  // throw new ApiError(400, 'server error!')
+  next(new ApiError(400, 'server error!'))
+})
 
 // global error handler
 app.use(globalErrorHandler)

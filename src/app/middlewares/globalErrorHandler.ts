@@ -24,7 +24,7 @@ const globalErrorHandler: ErrorRequestHandler = (
     errorMessages = simplifiedErrors.errorMessages
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode
-    message = error?.message
+    message = error.message
     errorMessages = error?.message
       ? [
           {
