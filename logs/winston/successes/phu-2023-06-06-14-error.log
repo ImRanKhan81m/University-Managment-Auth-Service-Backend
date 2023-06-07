@@ -1,0 +1,3 @@
+Tue Jun 06 2023 14:33:38 } [PH] error: Failed to connect database 😖 Connection to ac-gfbc9ev-shard-00-01.8ckjaxh.mongodb.net:27017 interrupted due to server monitor timeout
+Tue Jun 06 2023 14:55:35 } [PH] error: Failed to connect database 😖 connect ETIMEDOUT 3.213.241.242:27017
+Tue Jun 06 2023 14:58:50 } [PH] error: Failed to connect database 😖 connect ETIMEDOUT 3.213.241.242:27017
