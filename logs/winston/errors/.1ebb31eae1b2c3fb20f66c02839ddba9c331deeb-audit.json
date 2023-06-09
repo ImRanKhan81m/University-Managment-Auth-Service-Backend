@@ -1,45 +1,50 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\.1ebb31eae1b2c3fb20f66c02839ddba9c331deeb-audit.json",
-  "files": [
-    {
-      "date": 1686116573022,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-11-error.log",
-      "hash": "07a1090936ffebf6ff9ec17cd1b1663f27df3ba9a5c54ae90d2c77c3d0a89d54"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686117607488,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-12-error.log",
-      "hash": "bf0c4ddb421174ba360630054f0243f86d72a70b371e788d3296a330ea9604b0"
-    },
-    {
-      "date": 1686136147599,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-17-error.log",
-      "hash": "977222de022b41d51916b8631b64bb1077ec9d7b0dd8b8b7fc86806fde951108"
-    },
-    {
-      "date": 1686140329176,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-18-error.log",
-      "hash": "41e6c69b90957b40b7bcc3480690b71f62df3e7d140645eaa6e660b155e81d5f"
-    },
-    {
-      "date": 1686150235897,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-21-error.log",
-      "hash": "9ce60131c4899f67e434646e61b8070a30bdb7a9acceb3cbee140352eadff776"
-    },
-    {
-      "date": 1686154460274,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-22-error.log",
-      "hash": "1b3281230684053f6629ac3e5b21f9e4d4cceaf49d7122f3e91f1593be6987d1"
-    },
-    {
-      "date": 1686157255411,
-      "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-23-error.log",
-      "hash": "d29ef302b509019041df081392043ce4922153ab3d2186745871f76e0ba9870f"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\.1ebb31eae1b2c3fb20f66c02839ddba9c331deeb-audit.json",
+    "files": [
+        {
+            "date": 1686116573022,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-11-error.log",
+            "hash": "07a1090936ffebf6ff9ec17cd1b1663f27df3ba9a5c54ae90d2c77c3d0a89d54"
+        },
+        {
+            "date": 1686117607488,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-12-error.log",
+            "hash": "bf0c4ddb421174ba360630054f0243f86d72a70b371e788d3296a330ea9604b0"
+        },
+        {
+            "date": 1686136147599,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-17-error.log",
+            "hash": "977222de022b41d51916b8631b64bb1077ec9d7b0dd8b8b7fc86806fde951108"
+        },
+        {
+            "date": 1686140329176,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-18-error.log",
+            "hash": "41e6c69b90957b40b7bcc3480690b71f62df3e7d140645eaa6e660b155e81d5f"
+        },
+        {
+            "date": 1686150235897,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-21-error.log",
+            "hash": "9ce60131c4899f67e434646e61b8070a30bdb7a9acceb3cbee140352eadff776"
+        },
+        {
+            "date": 1686154460274,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-22-error.log",
+            "hash": "1b3281230684053f6629ac3e5b21f9e4d4cceaf49d7122f3e91f1593be6987d1"
+        },
+        {
+            "date": 1686157255411,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-07-06-23-error.log",
+            "hash": "d29ef302b509019041df081392043ce4922153ab3d2186745871f76e0ba9870f"
+        },
+        {
+            "date": 1686305938605,
+            "name": "F:\\ANextLevelCourse\\Mission-03(Project)\\Module-11\\University-Managment\\logs\\winston\\errors\\phu-2023-09-06-16-error.log",
+            "hash": "66d6784534e6ed153235e9d11f91d4c53a72a91e383a9bb2db2564621cf74328"
+        }
+    ],
+    "hashType": "sha256"
 }
