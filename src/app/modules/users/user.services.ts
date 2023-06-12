@@ -1,11 +1,15 @@
 import { IUser } from './user.interface';
 import { User } from './user.model';
 import config from '../../../config/index';
-import { generateUserId } from './user.utils';
+import { generateStudentId } from './user.utils';
 import ApiError from '../../../errors/ApiError';
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
-  const id = await generateUserId();
+  const academicSemester = {
+    year: '2022',
+    code: '01',
+  };
+  const id = await generateStudentId(academicSemester);
 
   user.id = id;
 
